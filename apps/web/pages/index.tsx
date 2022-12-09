@@ -1,5 +1,5 @@
 import styles from './index.module.scss';
-
+import { Tooltip } from '@effective-react/ui';
 export function Index() {
   /*
    * Replace the elements below with your own.
@@ -13,7 +13,9 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome web 👋
+              <Tooltip type="primary" title="test">
+                Welcome web 👋
+              </Tooltip>
             </h1>
           </div>
 
